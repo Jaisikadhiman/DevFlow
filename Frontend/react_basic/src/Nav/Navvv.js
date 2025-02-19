@@ -52,7 +52,7 @@ window.location.href="/login";
 //    setImgSrc(`http://localhost:8083/profileImages/${imgg}`)
 //   }, [imgSrc]);
 useEffect(() => {
-  if (imgg != "undefined") {
+  if (imgg !== "undefined") {
     setImgSrc(`http://localhost:8083/profileImages/${imgg}`);
   }
   if(imgg === null){
